@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>JQuery Tutorial</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/marquesina.jquery.js"></script>
+</head>
+<body>
+	<section class="ventana">
+		<a href="#" class="flecha" id="anterior">&laquo</a>
+			
+		<div id="marco">
+			<ul class="lista">
+				<li class="item">1</li>
+				<li class="item">2</li>
+				<li class="item">3</li>
+				<li class="item">4</li>
+				<li class="item">5</li>
+			</ul>
+		</div>
+			
+		<a href="#" class="flecha" id="siguiente">&raquo</a>
+		<script type="text/javascript">
+			$('#marco').avanceMarco('#anterior', '#siguiente' );
+		</script>
+	
+	</section>
+	</section>
+</body>
+</html>

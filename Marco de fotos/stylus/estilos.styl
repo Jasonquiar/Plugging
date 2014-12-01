@@ -1,0 +1,67 @@
+verde= #88BC40
+gris= #EDEDED
+negro-claro= #444
+gris-oscuro= #CDCDCD
+body
+	background verde
+	font-size 16px
+li
+	list-style none
+
+#anterior
+	right -35px
+	&:hover
+		right -20px
+#marco
+	border 8px solid white
+	border-radius .25rem
+	overflow hidden
+	position relative
+	width 29rem
+	z-index 5
+	.lista
+		box-shadow 0px 0px 25px 0px rgba(black,.3)
+		margin 0
+		padding 0
+		position relative
+		width 75rem
+
+#siguiente
+	left -38px
+	z-index 1
+	&:hover
+		left -20px
+
+.flecha
+		background gris
+		border-radius 50%
+		color negro-claro
+		font-size 5rem
+		height 4.5rem
+		line-height 3.75rem
+		position relative
+		text-decoration none
+		width 4.5rem
+		z-index 2
+		&:hover
+			color black
+			background gris-oscuro
+.item
+	background verde
+	border 1px solid black
+	float left
+	font-size 2rem
+	line-height 10.4375rem
+	position relative
+	width 14.375rem
+.ventana
+		margin 4.375rem auto
+		text-align center
+		width 40.625rem
+		a, #marco
+			display inline-block
+			vertical-align middle
+		
+
+	
+
